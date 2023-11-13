@@ -10,7 +10,7 @@ export const Riview = () => {
 useEffect(() => {
     const slider = new KeenSlider('#keen-slider', {
       loop: true,
-      autoplay: true,
+     
       
       slides: {
         origin: 'center',
@@ -29,7 +29,7 @@ useEffect(() => {
  
       autoplay: {
         delay: 3000, 
-        disableOnInteraction: false,
+      
       },
     });
   
