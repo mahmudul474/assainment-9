@@ -12,6 +12,9 @@ import About from "@/components/hero/about/about";
 import Timeline from "@/components/hero/timeline/timeline";
 import Glary from "@/components/hero/galary/glary";
 import { Riview } from "@/components/hero/review/review";
+import Blog from "@/components/hero/blog/blog";
+import Contact from "@/components/contact/contact";
+import Faq from "@/components/faq/faq";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +31,9 @@ export default function Home() {
         <Timeline/>
         <Glary/>
         <Riview/>
+        <Faq/>
+        <Blog/> 
+        <Contact/>
       </Layout>
     </>
   );
