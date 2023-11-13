@@ -45,7 +45,7 @@ const Responsive = () => {
   });
 
   return (
-    <div className="px-10">
+    <div className="px-10  block my-10">
       <h2> Responsive </h2>
       <Slider {...settings}>
         {[1, 2, 3, 4, 5, 6, 7, 8,1,3,4,5,67,].map((item) => (

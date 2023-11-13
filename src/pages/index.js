@@ -8,6 +8,10 @@ import Featured from "@/components/hero/featured/featured";
 import Services from "@/components/hero/service/services";
 import Member from "@/components/hero/member/member";
 import Pricing from "@/components/pricing/pricing";
+import About from "@/components/hero/about/about";
+import Timeline from "@/components/hero/timeline/timeline";
+import Glary from "@/components/hero/galary/glary";
+import { Riview } from "@/components/hero/review/review";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +24,10 @@ export default function Home() {
         <Services />
         <Member />
         <Pricing/>
+        <About/>
+        <Timeline/>
+        <Glary/>
+        <Riview/>
       </Layout>
     </>
   );
