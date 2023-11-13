@@ -5,6 +5,9 @@ import Banner from "@/components/hero/banner";
 import Layout from "@/components/layout/layout";
 import Navbar from "@/components/navbar/navbar";
 import Featured from "@/components/hero/featured/featured";
+import Services from "@/components/hero/service/services";
+import Member from "@/components/hero/member/member";
+import Pricing from "@/components/pricing/pricing";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,8 +16,10 @@ export default function Home() {
     <>
       <Layout>
         <Banner />
-     <Featured/>
-       
+        <Featured />
+        <Services />
+        <Member />
+        <Pricing/>
       </Layout>
     </>
   );
