@@ -23,11 +23,11 @@ export default function Home() {
       <Layout>
         <Banner />
         <Featured />
-        
+        <Timeline/>
         <Member />
         <Pricing/>
         <About/>
-        <Timeline/>
+    
         <Glary/>
         <Riview/>
         <Faq/>
