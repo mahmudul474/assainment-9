@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function Pricing() {
   return (
-    <section  className="flex items-center bg-blue-50  font-poppins dark:bg-gray-900 ">
+    <section  style={{backgroundImage:'url("https://i.ibb.co/1MXPYv6/muscular-car-service-worker-repairing-vehicle-1.jpg",)', backgroundRepeat:"no-repeat", backgroundSize:"cover"}} className="flex items-center   font-poppins dark:bg-gray-900 ">
     <div  className="justify-center flex-1 max-w-6xl px-4 mx-auto lg:py-0 md:px-6">
        
-        <p  className="text-md text-center font-medium mt-5 text-gray-500 mb-7   dark:text-gray-400">
+        <p  className="text-md text-center font-medium   text-gray-500 mb-7  mt-10   dark:text-gray-400">
         AUTOCARE PRESS</p>
-        <h2  className="mb-4 text-2xl font-bold text-gray-800 md:text-3xl text-center mb-4 dark:text-gray-300">Start your Business Plan
+        <h2  className="text-2xl font-bold text-gray-800 md:text-3xl text-center mb-4 dark:text-gray-300">Start your Business Plan
         </h2>
         <div  className="flex flex-wrap justify-center -mx-3">
             <div  className="w-full px-3 mb-6 md:w-1/2 lg:w-1/3">
