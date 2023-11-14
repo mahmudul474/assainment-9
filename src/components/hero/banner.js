@@ -21,7 +21,7 @@ const HomeBannerCarousel = () => {
 
   const slides = [
     {
-      image: 'https://i.ibb.co/q5QRn7f/image.png',
+      image: 'https://i.ibb.co/0f9h7vP/auto-mechanic-man-smith-with-clipboard-workshop.jpg',
       heading: 'Welcome to Your Car Services',
       text: 'Discover a world of exceptional automotive care at Your Car Services. Our skilled technicians are dedicated to ensuring your vehicle\'s peak performance and longevity.',
   
@@ -50,14 +50,14 @@ const HomeBannerCarousel = () => {
       buttons: ['Our services'],
     },
     {
-      image: 'https://i.ibb.co/q5QRn7f/image.png',
+      image: 'https://i.ibb.co/Jt5Jxyx/muscular-car-service-worker-repairing-vehicle.jpg',
       heading: 'Where Care Meets Innovation',
       text: 'At Your Car Services, we blend traditional automotive care with innovative solutions. Our commitment to excellence and cutting-edge practices sets us apart in the world of car services.'
     ,
       buttons: ["Our services"],
     },
     {
-      image: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTKwh-6jb5raRoEd5e11ppNH0BCuG98yQE1rtaECUB8xEym4wUI',
+      image: 'https://i.ibb.co/wRsNHTC/side-view-mechanic-checking-truck.jpg',
       heading: 'Your Vehicle, Our Expertise',
       text: 'Your vehicle deserves the best, and that\'s exactly what we offer at Your Car Services. Trust our expertise to provide top-notch care for your car, ensuring its optimal performance on every journey.'
     ,
@@ -84,14 +84,14 @@ const HomeBannerCarousel = () => {
       {slides.map((slide, slideIndex) => (
         <div key={slideIndex} className="relative w-full h-[550px] flex items-center justify-center text-center">
           <img src={slide.image} alt={`Slide ${slideIndex + 1}`} className="w-full h-full object-cover" />
-          <div className="absolute  lg:w-2/3 w-full  px-4  lg:px-10 mx-auto   top-1/2 transform -translate-y-1/2 text-white">
-           <h1 className='text-left text-4xl  capitalize'>{slide?.heading}</h1>
+          <div className="absolute   flex flex-col space-y-3  lg:w-2/3 w-full  px-4  lg:px-10 mx-auto   top-1/2 transform -translate-y-1/2 text-white">
+           <h1 className='text-left  backdrop-blur-sm font-bold   text-2xl  lg:text-5xl  capitalize'>{slide?.heading}</h1>
 
-            <p className='text-left text-lg'>{slide.text}</p>
+            <p className='text-left hidden lg:block text-lg'>{slide.text}</p>
             
-            <div className="flex gap-4">
+            <div className="flex   gap-4">
               {slide.buttons.map((button, buttonIndex) => (
-                <button key={buttonIndex} className="bg-[#195593] text-white px-4 py-2">
+                <button key={buttonIndex} className="bg-[#195593] text-white px-6 mt-4 py-3 rounded-md">
                   {button}
                 </button>
               ))}
