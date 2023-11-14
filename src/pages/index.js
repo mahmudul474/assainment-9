@@ -23,7 +23,7 @@ export default function Home() {
       <Layout>
         <Banner />
         <Featured />
-        <Services />
+        
         <Member />
         <Pricing/>
         <About/>
@@ -32,6 +32,7 @@ export default function Home() {
         <Riview/>
         <Faq/>
         <Blog/> 
+        <Services />
         <Contact/>
       </Layout>
     </>

@@ -82,7 +82,7 @@ const HomeBannerCarousel = () => {
    <div className='mb-10 block'>
      <Slider {...settings}>
       {slides.map((slide, slideIndex) => (
-        <div key={slideIndex} className="relative w-full h-[550px] flex items-center justify-center text-center">
+        <div key={slideIndex} className="relative w-full h-[450px] lg:h-[550px] flex items-center justify-center text-center">
           <img src={slide.image} alt={`Slide ${slideIndex + 1}`} className="w-full h-full object-cover" />
           <div className="absolute   flex flex-col space-y-3  lg:w-2/3 w-full  px-4  lg:px-10 mx-auto   top-1/2 transform -translate-y-1/2 text-white">
            <h1 className='text-left  backdrop-blur-sm font-bold   text-2xl  lg:text-5xl  capitalize'>{slide?.heading}</h1>
