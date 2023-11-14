@@ -9,8 +9,11 @@ export const featuredapi = createApi({
     getFeatures: builder.query({
       query: () => `features`,
     }),
+    getServices: builder.query({
+      query: () => `services`,
+    }),
   }),
 })
 
 
-export const { useGetFeaturesQuery } =featuredapi
+export const { useGetFeaturesQuery, useGetServicesQuery } =featuredapi

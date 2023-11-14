@@ -24,15 +24,17 @@ export default function Home() {
         <Banner />
         <Featured />
         <Timeline/>
-        <Member />
+        <Services />
         <Pricing/>
+        <Member />
+        
         <About/>
     
         <Glary/>
         <Riview/>
         <Faq/>
         <Blog/> 
-        <Services />
+      
         <Contact/>
       </Layout>
     </>

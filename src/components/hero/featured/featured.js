@@ -5,7 +5,7 @@ import React from "react";
 export default function Featured() {
   const { data, error, isLoading } = useGetFeaturesQuery(undefined);
 
-  console.log(data);
+
   if (isLoading) {
     return <h1>Loading .. </h1>;
   }
