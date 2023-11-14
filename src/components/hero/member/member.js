@@ -108,13 +108,14 @@ const Responsive = () => {
   ]
 
   return (
-    <div className="px-10  block my-10">
-      <h2> Responsive </h2>
+   <div>
+     <div className=" max-w-6xl m-auto">
+      <h2 className="text-3xl  text-center   font-bold"> Our Mecanic </h2>
       <Slider {...settings}>
         {member.map((item) => (
           <>
           
-          <div  className="w-full px-4 mb-4  lg:mb-0">
+          <div  className="w-full max-w-6xl px-4 mb-4  lg:mb-0">
                     <div  className="p-6 bg-white rounded shadow dark:bg-gray-700 group">
                         <a  className="block mb-2" href="#">
                             <div  className="relative overflow-hidden">
@@ -161,6 +162,7 @@ const Responsive = () => {
         ))}
       </Slider>
     </div>
+   </div>
   );
 };
 

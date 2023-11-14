@@ -44,8 +44,9 @@ export default function Services() {
                 </div>
                 <div className="flex justify-between mb-2">
                   <p className="mb-2 text-lg font-bold text-gray-600 dark:text-gray-400 ">
-                    <span>BasePrice: ${item?.pricing?.basePrice}</span>
+                    <span>BasePrice:  ${item?.pricing?.basePrice}</span>
                   </p>
+               
                 </div>
                 <a
                   href="#"
@@ -58,12 +59,12 @@ export default function Services() {
           ))}
         </div>
         <div className="flex justify-center">
-          <Link href="/services">
-            {" "}
-            <button className="px-4 py-2 text-[#10569f] border border-black rounded-full hover:text-gray-50 hover:bg-[#10569f] dark:text-gray-400 dark:bg-gray-900 dark:border-gray-900 dark:hover:border-gray-700 dark:hover:bg-gray-700">
-              View More
-            </button>
-          </Link>
+         <Link href="/services"> <button
+            href="#"
+            className="px-4 py-2 text-[#10569f] border border-black rounded-full hover:text-gray-50 hover:bg-[#10569f] dark:text-gray-400 dark:bg-gray-900 dark:border-gray-900 dark:hover:border-gray-700 dark:hover:bg-gray-700"
+          >
+            View More
+          </button></Link>
         </div>
       </div>
     </section>

@@ -40,7 +40,7 @@ const HomeBannerCarousel = () => {
       heading: 'Revitalize Your Ride with Our Expert Services',
       text: 'Revitalize your car and enjoy the open road with confidence. Our expert services cover everything from routine maintenance to specialized repairs, all aimed at keeping your ride in top condition.'
    ,
-      buttons: ['Our servicess'],
+      buttons: ['Our services'],
     },
     {
       image: 'https://i.ibb.co/2gQdDSJ/image.png',
@@ -82,9 +82,10 @@ const HomeBannerCarousel = () => {
    <div className='mb-10 block'>
      <Slider {...settings}>
       {slides.map((slide, slideIndex) => (
-        <div key={slideIndex} className="relative w-full h-[450px] lg:h-[550px] flex items-center justify-center text-center">
+        <div key={slideIndex} className="relative w-full h-[450px] lg:h-[550px] xl:h-[600px] 2xl:h-[650px]  flex items-center justify-center text-center">
           <img src={slide.image} alt={`Slide ${slideIndex + 1}`} className="w-full h-full object-cover" />
-          <div className="absolute   flex flex-col space-y-3  lg:w-2/3 w-full  px-4  lg:px-10 mx-auto   top-1/2 transform -translate-y-1/2 text-white">
+         <div className='m-auto container  max-w-6xl'>
+         <div className="absolute container   m-auto flex flex-col space-y-3  lg:w-2/3 w-full  px-4  lg:px-10 mx-auto   top-1/2 transform -translate-y-1/2 text-white">
            <h1 className='text-left  backdrop-blur-sm font-bold   text-2xl  lg:text-5xl  capitalize'>{slide?.heading}</h1>
 
             <p className='text-left hidden lg:block text-lg'>{slide.text}</p>
@@ -97,6 +98,7 @@ const HomeBannerCarousel = () => {
               ))}
             </div>
           </div>
+         </div>
         </div>
       ))}
     </Slider>

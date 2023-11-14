@@ -12,8 +12,20 @@ export const featuredapi = createApi({
     getServices: builder.query({
       query: () => `services`,
     }),
+    getFilteredProducts: builder.query({
+      query: ({ filter, sort, page }) => `products?filter=${filter}&sort=${sort}&page=${page}`,
+    }),
+    searchProducts: builder.query({
+      query: ({ searchTerm, page }) => `products?search=${searchTerm}&page=${page}`,
+    }),
+
+
+
+
+
+
   }),
 })
 
 
-export const { useGetFeaturesQuery, useGetServicesQuery } =featuredapi
+export const { useGetFeaturesQuery, useGetServicesQuery, useGetFilteredProductsQuery, useSearchProductsQuery } =featuredapi

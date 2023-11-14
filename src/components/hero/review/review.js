@@ -45,11 +45,12 @@ useEffect(() => {
   }, []);
   
   return (
-    <section className="bg-gray-50">
+    <section className="bg-gray-50  ">
+    <div className='max-w-6xl m-auto'>
     <div
-      className="mx-auto max-w-[1340px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24"
+      className="mx-auto      py-12   lg:me-0  "
     >
-      <div className="max-w-7xl items-end justify-between sm:flex sm:pe-6 lg:pe-8">
+      <div className="  m-auto items-end justify-between sm:flex sm:pe-6 lg:pe-8">
         <h2
           className="max-w-xl text-4xl font-bold tracking-tight text-gray-900  "
         >
@@ -101,7 +102,7 @@ useEffect(() => {
         </div>
       </div>
   
-      <div className="-mx-6 mt-8 lg:col-span-2 lg:mx-0">
+      <div className="  mt-8 lg:col-span-2 lg:mx-0">
         <div id="keen-slider" className="keen-slider">
           <div className="keen-slider__slide">
             <blockquote
@@ -504,6 +505,7 @@ useEffect(() => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   </section>
   );
