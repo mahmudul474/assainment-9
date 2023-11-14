@@ -11,8 +11,9 @@ const  handelSubmit=(e)=>{
 }
 
   return (
-    <section  className="relative overflow-hidden dark:bg-gray-900 font-poppins">
-    <div  className="absolute bottom-0 left-0 hidden w-full h-full lg:block lg:w-4/12">
+    <section  className=" overflow-hidden dark:bg-gray-900 font-poppins">
+    <div className=' max-w-6xl  relative m-auto'>
+    <div  className="absolute bottom-0 left-0  hidden w-full h-full lg:block lg:w-4/12">
         <img  className="object-cover w-full h-full"
             src="https://i.ibb.co/1MXPYv6/muscular-car-service-worker-repairing-vehicle-1.jpg" alt="" />
     </div>
@@ -98,6 +99,7 @@ const  handelSubmit=(e)=>{
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
   )
