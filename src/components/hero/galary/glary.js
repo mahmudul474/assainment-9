@@ -10,133 +10,98 @@ export default function Glary() {
         <div  className="mx-auto mb-10 border-b border-red-700 w-44 dark:border-gray-400"></div>
         <div  className="grid grid-cols-1 mt-8 lg:grid-cols-4 md:grid-cols-2">
             <div  className="relative overflow-hidden shadow-lg group">
-                <img src="https://i.postimg.cc/jqwg12hG/pexels-asad-photo-maldives-1591373.jpg"
+                <img src="https://img.freepik.com/free-photo/auto-mechanic-working-garage-repair-service_146671-19690.jpg?size=626&ext=jpg&ga=GA1.1.167125713.1699786927&semt=ais"
                      className="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
                      alt=""  />
                 <div  className="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
                 <div  className="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
                     <a href="#"  className="mb-2 text-2xl font-semibold text-gray-200 dark:text-white ">
-                        Lorem ipsum</a>
+                    Welcome to AutoCare Solutions</a>
                     <h2  className="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">
-                        Lorem
-                        ipsum dolor
-                        sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
+                    consectetur adipiscing elit. Explore our comprehensive car repair services designed to keep your vehicle running smoothly.</h2>
                 </div>
             </div>
             <div  className="relative overflow-hidden shadow-lg group">
-                <img src="https://i.postimg.cc/Hx5MQqQP/pexels-eberhard-grossgasteiger-1287145.jpg"
+                <img src="https://img.freepik.com/free-photo/benchman-fixing-engine-car_114579-2807.jpg?size=626&ext=jpg&ga=GA1.1.167125713.1699786927&semt=ais"
                      className="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
                      alt=""  />
                 <div  className="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
                 <div  className="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
                     <a href="#"  className="mb-2 text-2xl font-semibold text-gray-200 dark:text-white ">
-                        Lorem ipsum</a>
+                    Quality Repairs for Every Vehicle</a>
                     <h2  className="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">Lorem
-                        ipsum dolor
-                        sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
+                    In our commitment to excellence, we provide expert diagnostics and top-notch repairs for a wide range of automotive issues. Trust us with your car's well-being.</h2>
                 </div>
             </div>
             <div  className="relative overflow-hidden shadow-lg group">
-                <img src="https://i.postimg.cc/k4r6XTkN/pexels-aviv-perets-3274903.jpg"
+                <img src="https://img.freepik.com/free-photo/mechanic-working-car-suspension-repair-shop_52683-107770.jpg?size=626&ext=jpg&ga=GA1.1.167125713.1699786927&semt=ais"
                      className="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
                      alt=""  />
                 <div  className="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
                 <div  className="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
                     <a href="#"  className="mb-2 text-2xl font-semibold text-gray-200 dark:text-white ">
-                        Lorem ipsum</a>
+                    Efficient and Timely Service</a>
+                    <h2  className="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">At AutoCare Solutions, we understand the importance of your time. Our skilled technicians work efficiently to get you back on the road as quickly as possible.</h2>
+                </div>
+            </div>
+            <div  className="relative overflow-hidden shadow-lg group">
+                <img src="https://img.freepik.com/free-photo/man-mechanic-woman-customer-look-car-hood-discuss-repairs_146671-14232.jpg?size=626&ext=jpg&ga=GA1.1.167125713.1699786927&semt=ais"
+                     className="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
+                     alt=""  />
+                <div  className="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
+                <div  className="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
+                    <a href="#"  className="mb-2 text-2xl font-semibold text-gray-200 dark:text-white ">
+                    Transparent Pricing, No Surprises</a>
                     <h2  className="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">Lorem
-                        ipsum dolor
-                        sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
+                    Say goodbye to hidden costs. Our transparent pricing policy ensures you know exactly what you're paying for. Receive fair and honest quotes for your car repairs.</h2>
                 </div>
             </div>
             <div  className="relative overflow-hidden shadow-lg group">
-                <img src="https://i.postimg.cc/C1V5Vzqm/pexels-jacob-colvin-1757363.jpg"
+                <img src="https://img.freepik.com/free-photo/muscular-car-service-worker-repairing-vehicle_146671-19604.jpg?size=626&ext=jpg&ga=GA1.1.167125713.1699786927&semt=ais"
                      className="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
                      alt=""  />
                 <div  className="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
                 <div  className="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
                     <a href="#"  className="mb-2 text-2xl font-semibold text-gray-200 dark:text-white ">
-                        Lorem ipsum</a>
+                    Comprehensive Diagnostics</a>
                     <h2  className="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">Lorem
-                        ipsum dolor
-                        sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
+                    Uncover the root cause of your car troubles with our advanced diagnostic tools. We leave no stone unturned to identify and address issues accurately.</h2>
                 </div>
             </div>
             <div  className="relative overflow-hidden shadow-lg group">
-                <img src="https://i.postimg.cc/TYSR6K8g/pexels-frans-van-heerden-624015.jpg"
+                <img src="https://img.freepik.com/free-photo/that-s-need-be-recharged-process-repairing-car-after-accident-man-working-with-engine-hood_146671-16091.jpg?size=626&ext=jpg&ga=GA1.1.167125713.1699786927&semt=ais"
                      className="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
                      alt=""  />
                 <div  className="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
                 <div  className="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
                     <a href="#"  className="mb-2 text-2xl font-semibold text-gray-200 dark:text-white ">
-                        Lorem ipsum</a>
+                    Regular Maintenance for Longevity</a>
                     <h2  className="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">Lorem
-                        ipsum dolor
-                        sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
+                    Preventative care is the key to a long and healthy car life. Explore our routine maintenance services designed to keep your vehicle in optimal condition.</h2>
                 </div>
             </div>
             <div  className="relative overflow-hidden shadow-lg group">
-                <img src="https://i.postimg.cc/LXRP3yN9/pexels-michael-block-3225517.jpg"
+                <img src="https://img.freepik.com/free-photo/repair-man-making-car-service_1303-26860.jpg?size=626&ext=jpg&ga=GA1.1.167125713.1699786927&semt=ais"
                      className="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
                      alt=""  />
                 <div  className="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
                 <div  className="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
                     <a href="#"  className="mb-2 text-2xl font-semibold text-gray-200 dark:text-white ">
-                        Lorem ipsum</a>
+                    Customer Satisfaction Guaranteed</a>
                     <h2  className="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">Lorem
-                        ipsum dolor
-                        sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
+                    Your satisfaction is our priority. Experience a seamless service from start to finish, and discover why AutoCare Solutions is the go-to choice for car repairs.</h2>
                 </div>
             </div>
             <div  className="relative overflow-hidden shadow-lg group">
-                <img src="https://i.postimg.cc/Gt6hqtdF/pexels-cole-keister-4932184.jpg"
+                <img src="https://img.freepik.com/free-photo/mechanic-servicing-car_1170-1601.jpg?size=626&ext=jpg&ga=GA1.1.167125713.1699786927&semt=ais"
                      className="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
                      alt=""  />
                 <div  className="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
                 <div  className="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
                     <a href="#"  className="mb-2 text-2xl font-semibold text-gray-200 dark:text-white ">
-                        Lorem ipsum</a>
-                    <h2  className="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">Lorem
-                        ipsum dolor
-                        sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
-                </div>
-            </div>
-            <div  className="relative overflow-hidden shadow-lg group">
-                <img src="https://i.postimg.cc/MKXQ5fbQ/pexels-stein-egil-liland-3408744.jpg"
-                     className="group-hover:origin-center group-hover:scale-105 transition inset-0 object-cover object-center  duration-500 w-full h-[350px]"
-                     alt=""  />
-                <div  className="absolute inset-0 z-0 group-hover:bg-black opacity-60"></div>
-                <div  className="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
-                    <a href="#"  className="mb-2 text-2xl font-semibold text-gray-200 dark:text-white ">
-                        Lorem ipsum</a>
+                    Skilled Technicians You Can Trust</a>
                     <h2  className="mb-0 text-sm font-light text-gray-300 dark:text-gray-300 ">
-                        Lorem
-                        ipsum dolor
-                        sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
+                    Our team of certified technicians boasts years of experience. Rest easy knowing your vehicle is in the hands of professionals dedicated to quality craftsmanship.</h2>
                 </div>
             </div>
         </div>
