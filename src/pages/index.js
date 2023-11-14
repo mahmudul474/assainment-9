@@ -23,19 +23,15 @@ export default function Home() {
       <Layout>
         <Banner />
         <Featured />
-        <Timeline/>
+        <Timeline />
         <Services />
-        <Pricing/>
+        <Pricing />
         <Member />
-        
-        <About/>
-    
-        <Glary/>
-        <Riview/>
-        <Faq/>
-        <Blog/> 
-      
-        <Contact/>
+        <About />
+        <Glary />
+        <Riview />
+        <Contact />
+        <Blog />
       </Layout>
     </>
   );

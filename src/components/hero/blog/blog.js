@@ -2,30 +2,31 @@ import React from 'react'
 
 export default function Blog() {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-4  mt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
+
+      <h1 className='text-3xl my-5 text-center '>Our Blog </h1>
       <div className="grid gap-5 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
           <a href="/" aria-label="Article">
             <img
-              src="https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              src="https://img.freepik.com/free-photo/mechanic-holding-wrench_1170-1136.jpg?size=626&ext=jpg&ga=GA1.1.167125713.1699786927&semt=ais"
               className="object-cover w-full h-64 rounded"
               alt=""
             />
           </a>
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              13 Jul 2020
+              13 Jul 2023
             </p>
             <a
               href="/"
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <p className="text-2xl font-bold leading-5">Diving to the deep</p>
+              <p className="text-2xl font-bold leading-5">The Art of Car Maintenance</p>
             </a>
             <p className="mb-4 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+            Paragraph: Discover the secrets to keeping your vehicle in top-notch condition with our expert tips and insights. From routine maintenance to troubleshooting, empower yourself to become a car care aficionado.
             </p>
             <div className="flex space-x-4">
               <a
@@ -98,25 +99,25 @@ export default function Blog() {
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
           <a href="/" aria-label="Article">
             <img
-              src="https://images.pexels.com/photos/1576937/pexels-photo-1576937.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+              src="https://img.freepik.com/free-photo/mechanic-servicing-car-engine_1170-1684.jpg?w=360&t=st=1699951325~exp=1699951925~hmac=dcee7cb4dd13d3edf6aeb36676d7d1d45384d031541de69df4dc1588d95b8847"
               className="object-cover w-full h-64 rounded"
               alt=""
             />
           </a>
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              4 Nov 2020
+              4 Nov 2023
             </p>
             <a
               href="/"
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <p className="text-2xl font-bold leading-5">Conquer the World</p>
+              <p className="text-2xl font-bold leading-5">Driving into the Future: Electric Cars Explained</p>
             </a>
             <p className="mb-4 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+            Paragraph: Dive into the world of electric vehicles and explore the eco-friendly revolution. Uncover the technology behind electric cars and learn why they're becoming an increasingly popular choice for the conscious driver.
+
             </p>
             <div className="flex space-x-4">
               <a
@@ -149,7 +150,7 @@ export default function Blog() {
                     />
                   </svg>
                 </div>
-                <p className="font-semibold">7.4K</p>
+                <p className="font-semibold">9.4K</p>
               </a>
               <a
                 href="/"
@@ -189,14 +190,14 @@ export default function Blog() {
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
           <a href="/" aria-label="Article">
             <img
-              src="https://images.pexels.com/photos/2123755/pexels-photo-2123755.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://img.freepik.com/free-photo/car-mechanic-changing-wheels-car_1303-27465.jpg?size=626&ext=jpg&ga=GA1.1.167125713.1699786927&semt=ais"
               className="object-cover w-full h-64 rounded"
               alt=""
             />
           </a>
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              28 Dec 2020
+              28 Dec 2022
             </p>
             <a
               href="/"
@@ -204,12 +205,11 @@ export default function Blog() {
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
               <p className="text-2xl font-bold leading-5">
-                Explore the beautiful
+              Road Trip Essentials: Packing Like a Pro
               </p>
             </a>
             <p className="mb-4 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+            Paragraph: Planning a road trip? Ensure a smooth and enjoyable journey with our guide to packing essentials. From snacks to safety gear, we've got you covered for the ultimate road adventure.
             </p>
             <div className="flex space-x-4">
               <a
