@@ -2,19 +2,19 @@ import React from 'react'
 
 export default function Pricing() {
   return (
-    <section class="flex items-center bg-blue-50 lg:h-screen font-poppins dark:bg-gray-900 ">
-    <div class="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-0 md:px-6">
-        <h2 class="mb-4 text-3xl font-bold text-gray-800 md:text-5xl dark:text-gray-300">Start your Business Plan
+    <section  className="flex items-center bg-blue-50 lg:h-screen font-poppins dark:bg-gray-900 ">
+    <div  className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-0 md:px-6">
+        <h2  className="mb-4 text-3xl font-bold text-gray-800 md:text-5xl dark:text-gray-300">Start your Business Plan
         </h2>
-        <p class="text-lg font-medium text-gray-500 mb-7 md:text-xl dark:text-gray-400">
+        <p  className="text-lg font-medium text-gray-500 mb-7 md:text-xl dark:text-gray-400">
             Lorem ipsum dor amet ispicious</p>
-        <div class="flex flex-wrap justify-center -mx-3">
-            <div class="w-full px-3 mb-6 md:w-1/2 lg:w-1/3">
-                <div class="flex flex-col items-center rounded-md shadow-md dark:bg-gray-800 bg-gray-50">
-                    <div class="flex justify-center w-full bg-blue-100 rounded-b-full dark:bg-gray-700">
-                        <a href="#" class="py-6 text-blue-600 dark:text-gray-400 ">
+        <div  className="flex flex-wrap justify-center -mx-3">
+            <div  className="w-full px-3 mb-6 md:w-1/2 lg:w-1/3">
+                <div  className="flex flex-col items-center rounded-md shadow-md dark:bg-gray-800 bg-gray-50">
+                    <div  className="flex justify-center w-full bg-blue-100 rounded-b-full dark:bg-gray-700">
+                        <a href="#"  className="py-6 text-blue-600 dark:text-gray-400 ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="w-16 h-16 bi bi-building" viewBox="0 0 16 16">
+                                 className="w-16 h-16 bi bi-building" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
                                     d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
                                 <path
@@ -22,14 +22,14 @@ export default function Pricing() {
                             </svg>
                         </a>
                     </div>
-                    <div class="px-16 py-6 text-center w-full">
-                        <h2 class="mb-6 text-3xl font-semibold text-gray-700 lg:text-4xl dark:text-gray-300">Starter
+                    <div  className="px-16 py-6 text-center w-full">
+                        <h2  className="mb-6 text-3xl font-semibold text-gray-700 lg:text-4xl dark:text-gray-300">Starter
                         </h2>
-                        <ul class="mb-6 lg:self-center">
-                            <li class="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
-                                <a href="" class="mr-2 text-blue-600 dark:text-gray-400">
+                        <ul  className="mb-6 lg:self-center">
+                            <li  className="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
+                                <a href=""  className="mr-2 text-blue-600 dark:text-gray-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        fill="currentColor"  className="bi bi-check-circle" viewBox="0 0 16 16">
                                         <path
                                             d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                         <path
@@ -38,10 +38,10 @@ export default function Pricing() {
                                 </a>
                                 <span>RGB Memory used </span>
                             </li>
-                            <li class="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
-                                <a href="" class="mr-2 text-blue-600 dark:text-gray-400">
+                            <li  className="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
+                                <a href=""  className="mr-2 text-blue-600 dark:text-gray-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        fill="currentColor"  className="bi bi-check-circle" viewBox="0 0 16 16">
                                         <path
                                             d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                         <path
@@ -50,10 +50,10 @@ export default function Pricing() {
                                 </a>
                                 <span>3 Emails</span>
                             </li>
-                            <li class="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
-                                <a href="#" class="mr-2 text-blue-600 dark:text-gray-400">
+                            <li  className="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
+                                <a href="#"  className="mr-2 text-blue-600 dark:text-gray-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        fill="currentColor"  className="bi bi-check-circle" viewBox="0 0 16 16">
                                         <path
                                             d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                         <path
@@ -62,10 +62,10 @@ export default function Pricing() {
                                 </a>
                                 <span>Manage disc space</span>
                             </li>
-                            <li class="flex items-center font-medium text-gray-500 dark:text-gray-400">
-                                <a href="#" class="mr-2 text-blue-600 dark:text-gray-400">
+                            <li  className="flex items-center font-medium text-gray-500 dark:text-gray-400">
+                                <a href="#"  className="mr-2 text-blue-600 dark:text-gray-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        fill="currentColor"  className="bi bi-check-circle" viewBox="0 0 16 16">
                                         <path
                                             d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                         <path
@@ -75,24 +75,24 @@ export default function Pricing() {
                                 <span>Unlimited Domains</span>
                             </li>
                         </ul>
-                        <div class="mb-6">
+                        <div  className="mb-6">
                             <span
-                                class="relative text-2xl font-medium text-gray-700 dark:text-gray-300 -top-6 right-1">$</span>
-                            <span class="text-5xl font-medium text-gray-700 dark:text-gray-300">74</span>
-                            <span class="text-3xl font-medium text-gray-700 dark:text-gray-300">/month</span>
+                                 className="relative text-2xl font-medium text-gray-700 dark:text-gray-300 -top-6 right-1">$</span>
+                            <span  className="text-5xl font-medium text-gray-700 dark:text-gray-300">74</span>
+                            <span  className="text-3xl font-medium text-gray-700 dark:text-gray-300">/month</span>
                         </div>
                         <a href="#"
-                            class="inline-block w-full py-3 font-medium text-center text-blue-600 border border-blue-600 rounded-full hover:bg-blue-700 hover:text-gray-200 dark:border-gray-500 dark:hover:bg-blue-600 dark:hover:text-gray-300 dark:hover:border-blue-600 dark:text-gray-400">
+                             className="inline-block w-full py-3 font-medium text-center text-blue-600 border border-blue-600 rounded-full hover:bg-blue-700 hover:text-gray-200 dark:border-gray-500 dark:hover:bg-blue-600 dark:hover:text-gray-300 dark:hover:border-blue-600 dark:text-gray-400">
                             Purchase Now </a>
                     </div>
                 </div>
             </div>
-            <div class="w-full px-3 mb-6 md:w-1/2 lg:w-1/3">
-                <div class="flex flex-col items-center rounded-md shadow-md dark:bg-gray-800 bg-gray-50">
-                    <div class="flex justify-center w-full bg-blue-100 rounded-b-full dark:bg-gray-700">
-                        <a href="#" class="py-6 text-blue-600 dark:text-gray-400 ">
+            <div  className="w-full px-3 mb-6 md:w-1/2 lg:w-1/3">
+                <div  className="flex flex-col items-center rounded-md shadow-md dark:bg-gray-800 bg-gray-50">
+                    <div  className="flex justify-center w-full bg-blue-100 rounded-b-full dark:bg-gray-700">
+                        <a href="#"  className="py-6 text-blue-600 dark:text-gray-400 ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="w-16 h-16 bi bi-building" viewBox="0 0 16 16">
+                                 className="w-16 h-16 bi bi-building" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
                                     d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
                                 <path
@@ -100,14 +100,14 @@ export default function Pricing() {
                             </svg>
                         </a>
                     </div>
-                    <div class="px-16 py-6 text-center w-full">
-                        <h2 class="mb-6 text-3xl font-semibold text-gray-700 lg:text-4xl dark:text-gray-300">Premium
+                    <div  className="px-16 py-6 text-center w-full">
+                        <h2  className="mb-6 text-3xl font-semibold text-gray-700 lg:text-4xl dark:text-gray-300">Premium
                         </h2>
-                        <ul class="mb-6 lg:self-center">
-                            <li class="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
-                                <a href="#" class="mr-2 text-blue-600 dark:text-gray-400">
+                        <ul  className="mb-6 lg:self-center">
+                            <li  className="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
+                                <a href="#"  className="mr-2 text-blue-600 dark:text-gray-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        fill="currentColor"  className="bi bi-check-circle" viewBox="0 0 16 16">
                                         <path
                                             d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                         <path
@@ -116,10 +116,10 @@ export default function Pricing() {
                                 </a>
                                 <span>RGB Memory used </span>
                             </li>
-                            <li class="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
-                                <a href="#" class="mr-2 text-blue-600 dark:text-gray-400">
+                            <li  className="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
+                                <a href="#"  className="mr-2 text-blue-600 dark:text-gray-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        fill="currentColor"  className="bi bi-check-circle" viewBox="0 0 16 16">
                                         <path
                                             d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                         <path
@@ -128,10 +128,10 @@ export default function Pricing() {
                                 </a>
                                 <span>3 Emails</span>
                             </li>
-                            <li class="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
-                                <a href="#" class="mr-2 text-blue-600 dark:text-gray-400">
+                            <li  className="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
+                                <a href="#"  className="mr-2 text-blue-600 dark:text-gray-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        fill="currentColor"  className="bi bi-check-circle" viewBox="0 0 16 16">
                                         <path
                                             d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                         <path
@@ -140,10 +140,10 @@ export default function Pricing() {
                                 </a>
                                 <span>Manage disc space</span>
                             </li>
-                            <li class="flex items-center font-medium text-gray-500 dark:text-gray-400">
-                                <a href="#" class="mr-2 text-blue-600 dark:text-gray-400">
+                            <li  className="flex items-center font-medium text-gray-500 dark:text-gray-400">
+                                <a href="#"  className="mr-2 text-blue-600 dark:text-gray-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        fill="currentColor"  className="bi bi-check-circle" viewBox="0 0 16 16">
                                         <path
                                             d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                         <path
@@ -153,24 +153,24 @@ export default function Pricing() {
                                 <span>Unlimited Domains</span>
                             </li>
                         </ul>
-                        <div class="mb-6">
+                        <div  className="mb-6">
                             <span
-                                class="relative text-2xl font-medium text-gray-700 -top-6 right-1 dark:text-gray-300">$</span>
-                            <span class="text-5xl font-medium text-gray-700 dark:text-gray-300">124</span>
-                            <span class="text-3xl font-medium text-gray-700 dark:text-gray-300">/month</span>
+                                 className="relative text-2xl font-medium text-gray-700 -top-6 right-1 dark:text-gray-300">$</span>
+                            <span  className="text-5xl font-medium text-gray-700 dark:text-gray-300">124</span>
+                            <span  className="text-3xl font-medium text-gray-700 dark:text-gray-300">/month</span>
                         </div>
                         <a href="#"
-                            class="inline-block w-full py-3 font-medium text-center bg-blue-600 rounded-full dark:hover:text-gray-300 dark:text-gray-400 text-indigo-50 hover:bg-blue-700 dark:bg-gray-900 dark:hover:bg-blue-600">
+                             className="inline-block w-full py-3 font-medium text-center bg-blue-600 rounded-full dark:hover:text-gray-300 dark:text-gray-400 text-indigo-50 hover:bg-blue-700 dark:bg-gray-900 dark:hover:bg-blue-600">
                             Purchase Now </a>
                     </div>
                 </div>
             </div>
-            <div class="w-full px-3 mb-6 md:w-1/2 lg:w-1/3">
-                <div class="flex flex-col items-center rounded-md shadow-md dark:bg-gray-800 bg-gray-50">
-                    <div class="flex justify-center w-full bg-blue-100 rounded-b-full dark:bg-gray-700">
-                        <a href="#" class="py-6 text-blue-600 dark:text-gray-400 ">
+            <div  className="w-full px-3 mb-6 md:w-1/2 lg:w-1/3">
+                <div  className="flex flex-col items-center rounded-md shadow-md dark:bg-gray-800 bg-gray-50">
+                    <div  className="flex justify-center w-full bg-blue-100 rounded-b-full dark:bg-gray-700">
+                        <a href="#"  className="py-6 text-blue-600 dark:text-gray-400 ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="w-16 h-16 bi bi-building" viewBox="0 0 16 16">
+                                 className="w-16 h-16 bi bi-building" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
                                     d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
                                 <path
@@ -178,15 +178,15 @@ export default function Pricing() {
                             </svg>
                         </a>
                     </div>
-                    <div class="px-16 py-6 text-center w-full">
-                        <h2 class="mb-6 text-3xl font-semibold text-gray-700 lg:text-4xl dark:text-gray-300">
+                    <div  className="px-16 py-6 text-center w-full">
+                        <h2  className="mb-6 text-3xl font-semibold text-gray-700 lg:text-4xl dark:text-gray-300">
                             Ultimate
                         </h2>
-                        <ul class="mb-6 lg:self-center">
-                            <li class="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
-                                <a href="" class="mr-2 text-blue-600 dark:text-gray-400">
+                        <ul  className="mb-6 lg:self-center">
+                            <li  className="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
+                                <a href=""  className="mr-2 text-blue-600 dark:text-gray-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        fill="currentColor"  className="bi bi-check-circle" viewBox="0 0 16 16">
                                         <path
                                             d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                         <path
@@ -195,10 +195,10 @@ export default function Pricing() {
                                 </a>
                                 <span>RGB Memory used </span>
                             </li>
-                            <li class="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
-                                <a href="" class="mr-2 text-blue-600 dark:text-gray-400">
+                            <li  className="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
+                                <a href=""  className="mr-2 text-blue-600 dark:text-gray-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        fill="currentColor"  className="bi bi-check-circle" viewBox="0 0 16 16">
                                         <path
                                             d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                         <path
@@ -207,10 +207,10 @@ export default function Pricing() {
                                 </a>
                                 <span>3 Emails</span>
                             </li>
-                            <li class="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
-                                <a href="" class="mr-2 text-blue-600 dark:text-gray-400">
+                            <li  className="flex items-center mb-3 font-medium text-gray-500 dark:text-gray-400">
+                                <a href=""  className="mr-2 text-blue-600 dark:text-gray-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        fill="currentColor"  className="bi bi-check-circle" viewBox="0 0 16 16">
                                         <path
                                             d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                         <path
@@ -219,10 +219,10 @@ export default function Pricing() {
                                 </a>
                                 <span>Manage disc space</span>
                             </li>
-                            <li class="flex items-center font-medium text-gray-500 dark:text-gray-400">
-                                <a href="" class="mr-2 text-blue-600 dark:text-gray-400">
+                            <li  className="flex items-center font-medium text-gray-500 dark:text-gray-400">
+                                <a href=""  className="mr-2 text-blue-600 dark:text-gray-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        fill="currentColor"  className="bi bi-check-circle" viewBox="0 0 16 16">
                                         <path
                                             d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                         <path
@@ -232,14 +232,14 @@ export default function Pricing() {
                                 <span>Unlimited Domains</span>
                             </li>
                         </ul>
-                        <div class="mb-6">
+                        <div  className="mb-6">
                             <span
-                                class="relative text-2xl font-medium text-gray-700 dark:text-gray-300 -top-6 right-1">$</span>
-                            <span class="text-5xl font-medium text-gray-700 dark:text-gray-300">274</span>
-                            <span class="text-3xl font-medium text-gray-700 dark:text-gray-300">/month</span>
+                                 className="relative text-2xl font-medium text-gray-700 dark:text-gray-300 -top-6 right-1">$</span>
+                            <span  className="text-5xl font-medium text-gray-700 dark:text-gray-300">274</span>
+                            <span  className="text-3xl font-medium text-gray-700 dark:text-gray-300">/month</span>
                         </div>
                         <a href="#"
-                            class="inline-block w-full py-3 font-medium text-center text-blue-600 border border-blue-600 rounded-full dark:hover:text-gray-300 dark:text-gray-400 hover:bg-blue-700 hover:text-gray-200 dark:border-gray-500 dark:hover:bg-blue-600 dark:hover:border-blue-600">
+                             className="inline-block w-full py-3 font-medium text-center text-blue-600 border border-blue-600 rounded-full dark:hover:text-gray-300 dark:text-gray-400 hover:bg-blue-700 hover:text-gray-200 dark:border-gray-500 dark:hover:bg-blue-600 dark:hover:border-blue-600">
                             Purchase Now </a>
                     </div>
                 </div>
