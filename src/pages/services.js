@@ -129,82 +129,59 @@ export default function Services() {
               
                 
                        
-                          <button onClick={() => handleSortTitle("asc")}>Sort Title A to Z</button>{" "}
+                          <button className="w-full border p-2 my-1 border-gray-200" onClick={() => handleSortTitle("asc")}>Sort Title A to Z</button>{" "}
                       
 
-                        <option onClick={() => handleSortTitle("desc")}>
-                          <button>Sort Title Z to A</button>
-                        </option>
-                        <option onClick={() => handleSortPrice("asc")}>
+                       
+                          <button  onClick={() => handleSortTitle("desc")} className="w-full border p-2 my-1 border-gray-200" >Sort Title Z to A</button>
+                     
+                       
                           {" "}
-                          <button>Sort Price Low to High</button>
-                        </option>
-                        <option onClick={() => handleSortPrice("desc")}>
-                          <button>Sort Price High to Low</button>
-                        </option>
+                          <button onClick={() => handleSortPrice("asc")} className="w-full border p-2 my-1 border-gray-200">Sort Price Low to High</button>
+                         
+ 
+                          <button onClick={() => handleSortPrice("desc")} className="w-full border p-2 my-1 border-gray-200">Sort Price High to Low</button>
+                         
               </div>
             </div>
             <div className="w-full px-3 lg:w-3/4">
               <div className="px-3 ">
-                <div className="items-center justify-between hidden px-4 py-2 mb-4 bg-gray-100 md:flex dark:bg-gray-900 ">
-                  <h2 className="text-2xl dark:text-gray-400">
-                    Search Results for items
-                  </h2>
-                  <div className="flex items-center justify-between">
-                    <div className="flex">
-                      <a
-                        href="#"
-                        className="inline-block h-full p-2 mr-3 border rounded-md bg-gray-50 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          className="w-5 h-5 bi bi-list"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            fill-rule="evenodd"
-                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-                          ></path>
-                        </svg>
-                      </a>
-                      <a
-                        href="#"
-                        className="inline-block h-full p-2 mr-3 border rounded-md bg-gray-50 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          className="w-5 h-5 bi bi-grid-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"></path>
-                        </svg>
-                      </a>
-                      <a
-                        href="#"
-                        className="inline-block h-full p-2 mr-6 border rounded-md bg-gray-50 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          className="w-5 h-5 bi bi-grid-3x3-gap-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"></path>
-                        </svg>
-                      </a>
-                    </div>
-                    <div>
-                      
-                    </div>
-                  </div>
+                <div className="items-center justify-between  px-4 py-2 mb-4 bg-gray-100 md:flex dark:bg-gray-900 ">
+              
+
+<div className="relative w-full">
+  <label htmlFor="Search" className="sr-only"> Search </label>
+
+  <input
+  onChange={handleSearchTermChange}
+    type="text"
+    id="Search"
+    placeholder="Search for..."
+    className="w-full rounded-md border-gray-200 py-2.5 pe-10 shadow-sm sm:text-sm"
+  />
+
+  <span className="absolute inset-y-0 end-0 grid w-10 place-content-center">
+    <button type="button" className="text-gray-600 hover:text-gray-700">
+      <span className="sr-only">Search</span>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth="1.5"
+        stroke="currentColor"
+        className="h-4 w-4"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+        />
+      </svg>
+    </button>
+  </span>
+</div>
+                 
                 </div>
               </div>
 

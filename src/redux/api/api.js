@@ -1,13 +1,9 @@
- 
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
- 
 export const featuredapi = createApi({
-  reducerPath: 'featuredapi',
-  baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:5000/' }),
+  reducerPath: "featuredapi",
+  baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:5000/" }),
   endpoints: (builder) => ({
-    
-    
     getFeatures: builder.query({
       query: () => `features`,
     }),
@@ -15,26 +11,19 @@ export const featuredapi = createApi({
       query: () => `services`,
     }),
     getFilteredProducts: builder.query({
-      query: ({
-        filter,
-        sortTitle,
-        sortPrice,
-        page,
-      }) =>`products?titleSort=${sortTitle}&sortPrice=${sortPrice}&page=${page}`
-    
-    
+      query: ({ filter, sortTitle, sortPrice, page }) =>
+        `products?titleSort=${sortTitle}&sortPrice=${sortPrice}&page=${page}`,
     }),
     searchProducts: builder.query({
-      query: ({ searchTerm, page }) => `products?search=${searchTerm}&page=${page}`,
+      query: ({ searchTerm, page }) =>
+        `products/result?search=${searchTerm}&page=${page}`,
     }),
-
-
-
-
-
-
   }),
-})
+});
 
-
-export const { useGetFeaturesQuery, useGetServicesQuery, useGetFilteredProductsQuery, useSearchProductsQuery } =featuredapi
+export const {
+  useGetFeaturesQuery,
+  useGetServicesQuery,
+  useGetFilteredProductsQuery,
+  useSearchProductsQuery,
+} = featuredapi;
