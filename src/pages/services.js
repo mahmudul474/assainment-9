@@ -41,10 +41,7 @@ export default function Services() {
 
 
 
-  const handleFilterChange = (event) => {
-    setFilter(event.target.value);
-  };
-
+  
   const handleSortTitle = (order) => {
     setSortTitle(order);
     setSortPrice("");  
@@ -68,9 +65,9 @@ export default function Services() {
     return <div>Loading...</div>;
   }
 
-  // if (filterError || searchError) {
-  //   return <div>Error: Unable to fetch data</div>;
-  // }
+  if (filterError || searchError) {
+    return <div>Error: Unable to fetch data</div>;
+  }
 
   const products = searchTerm ? searchResults : filteredProducts;
 
@@ -106,7 +103,7 @@ export default function Services() {
           </li>
 
 
-          <input   onChange={handleSearchTermChange} className="border border-black"/>
+       
 
           <li className="relative flex items-center">
             <span className="absolute inset-y-0 -start-px h-10 w-4 bg-gray-100 [clip-path:_polygon(0_0,_0%_100%,_100%_50%)] rtl:rotate-180"></span>
@@ -126,10 +123,10 @@ export default function Services() {
             <div className="w-full pr-4 lg:w-1/4 lg:block">
               <div className="p-4 mb-5 bg-white border border-gray-200 dark:border-gray-900 dark:bg-gray-900">
                 <h2 className="text-2xl font-bold dark:text-gray-400">
-                  Product Categories
+                Services
                 </h2>
                 <div className="w-16 pb-2 mb-6 border-b border-rose-600 dark:border-gray-400"></div>
-                <ul>
+              
                 
                        
                           <button onClick={() => handleSortTitle("asc")}>Sort Title A to Z</button>{" "}
@@ -145,183 +142,6 @@ export default function Services() {
                         <option onClick={() => handleSortPrice("desc")}>
                           <button>Sort Price High to Low</button>
                         </option>
-
-                        {/* Render your product cards here using the 'products' state */}
-
-                        {/* Pagination */}
-                        <div>
-                          <button
-                            onClick={() => handlePageChange(page - 1)}
-                            disabled={page === 1}
-                          >
-                            Previous Page
-                          </button>
-                          <span> Page {page} </span>
-                          <button onClick={() => handlePageChange(page + 1)}>
-                            Next Page
-                          </button>
-                        </div>
-                      
-
-
-                  <li className="mb-4">
-                    <label
-                      for=""
-                      className="flex items-center dark:text-gray-400 "
-                    >
-                      <input type="checkbox" className="w-4 h-4 mr-2" />
-                      <span className="text-lg">Sweater</span>
-                    </label>
-                  </li>
-                  <li className="mb-4">
-                    <label
-                      for=""
-                      className="flex items-center dark:text-gray-400 "
-                    >
-                      <input type="checkbox" className="w-4 h-4 mr-2 " />
-                      <span className="text-lg">Socks</span>
-                    </label>
-                  </li>
-                  <li className="mb-4">
-                    <label
-                      for=""
-                      className="flex items-center dark:text-gray-400"
-                    >
-                      <input type="checkbox" className="w-4 h-4 mr-2" />
-                      <span className="text-lg">T-Shirt</span>
-                    </label>
-                  </li>
-                  <li className="mb-4">
-                    <label
-                      for=""
-                      className="flex items-center dark:text-gray-400"
-                    >
-                      <input type="checkbox" className="w-4 h-4 mr-2" />
-                      <span className="text-lg">Shoes</span>
-                    </label>
-                  </li>
-                  <li className="mb-4">
-                    <label
-                      for=""
-                      className="flex items-center dark:text-gray-400"
-                    >
-                      <input type="checkbox" className="w-4 h-4 mr-2" />
-                      <span className="text-lg">Hoodies &amp; Pants</span>
-                    </label>
-                  </li>
-                </ul>
-                <a
-                  href="#"
-                  className="text-base font-medium text-blue-500 hover:underline dark:text-blue-400"
-                >
-                  View More
-                </a>
-              </div>
-              <div className="p-4 mb-5 bg-white border border-gray-200 dark:bg-gray-900 dark:border-gray-900">
-                <h2 className="text-2xl font-bold dark:text-gray-400 ">Size</h2>
-                <div className="w-16 pb-2 mb-6 border-b border-rose-600 dark:border-gray-400"></div>
-                <div className="flex flex-wrap -mx-2 -mb-2">
-                  <button className="py-1 mb-2 mr-1 border w-11 hover:border-blue-400 dark:border-gray-400 hover:text-blue-600 dark:hover:border-gray-300 dark:text-gray-400">
-                    XL
-                  </button>
-                  <button className="py-1 mb-2 mr-1 border w-11 hover:border-blue-400 hover:text-blue-600 dark:border-gray-400 dark:hover:border-gray-300 dark:text-gray-400">
-                    S
-                  </button>
-                  <button className="py-1 mb-2 mr-1 border w-11 hover:border-blue-400 hover:text-blue-600 dark:border-gray-400 dark:hover:border-gray-300 dark:text-gray-400">
-                    M
-                  </button>
-                  <button className="py-1 mb-2 mr-1 border w-11 hover:border-blue-400 hover:text-blue-600 dark:border-gray-400 dark:hover:border-gray-300 dark:text-gray-400">
-                    XS
-                  </button>
-                </div>
-              </div>
-              <div className="p-4 mb-5 bg-white border border-gray-200 dark:border-gray-900 dark:bg-gray-900">
-                <h2 className="text-2xl font-bold dark:text-gray-400">
-                  Colors
-                </h2>
-                <div className="w-16 pb-2 mb-6 border-b border-rose-600 dark:border-gray-400"></div>
-                <div className="flex flex-wrap -mx-2 -mb-2">
-                  <button className="p-1 mb-2 mr-4 ">
-                    <div className="w-5 h-5 bg-emerald-400"></div>
-                  </button>
-                  <button className="p-1 mb-2 mr-4 ">
-                    <div className="w-5 h-5 bg-blue-700"></div>
-                  </button>
-                  <button className="p-1 mb-2 mr-4 ">
-                    <div className="w-5 h-5 bg-rose-600"></div>
-                  </button>
-                  <button className="p-1 mb-2 mr-4 ">
-                    <div className="w-5 h-5 bg-amber-700"></div>
-                  </button>
-                  <button className="p-1 mb-2 mr-4 ">
-                    <div className="w-5 h-5 bg-green-700"></div>
-                  </button>
-                  <button className="p-1 mb-2 mr-4 ">
-                    <div className="w-5 h-5 bg-pink-400"></div>
-                  </button>
-                  <button className="p-1 mb-2 mr-4 ">
-                    <div className="w-5 h-5 bg-indigo-400"></div>
-                  </button>
-                  <button className="p-1 mb-2 mr-4 ">
-                    <div className="w-5 h-5 bg-cyan-600"></div>
-                  </button>
-                  <button className="p-1 mb-2 mr-4 ">
-                    <div className="w-5 h-5 bg-stone-400"></div>
-                  </button>
-                  <button className="p-1 mb-2 mr-4 ">
-                    <div className="w-5 h-5 bg-yellow-400"></div>
-                  </button>
-                </div>
-              </div>
-              <div className="p-4 mb-5 bg-white border border-gray-200 dark:bg-gray-900 dark:border-gray-900">
-                <h2 className="text-2xl font-bold dark:text-gray-400">Brand</h2>
-                <div className="w-16 pb-2 mb-6 border-b border-rose-600 dark:border-gray-400"></div>
-                <ul>
-                  <li className="mb-4">
-                    <label
-                      for=""
-                      className="flex items-center dark:text-gray-300"
-                    >
-                      <input type="checkbox" className="w-4 h-4 mr-2" />
-                      <span className="text-lg dark:text-gray-400">Amul</span>
-                    </label>
-                  </li>
-                  <li className="mb-4">
-                    <label
-                      for=""
-                      className="flex items-center dark:text-gray-300"
-                    >
-                      <input type="checkbox" className="w-4 h-4 mr-2" />
-                      <span className="text-lg dark:text-gray-400">RIGO</span>
-                    </label>
-                  </li>
-                  <li className="mb-4">
-                    <label
-                      for=""
-                      className="flex items-center dark:text-gray-300"
-                    >
-                      <input type="checkbox" className="w-4 h-4 mr-2" />
-                      <span className="text-lg dark:text-gray-400">Nyptra</span>
-                    </label>
-                  </li>
-                  <li className="mb-4">
-                    <label
-                      for=""
-                      className="flex items-center dark:text-gray-300"
-                    >
-                      <input type="checkbox" className="w-4 h-4 mr-2" />
-                      <span className="text-lg dark:text-gray-400">
-                        Shangri-la{" "}
-                      </span>
-                    </label>
-                  </li>
-                </ul>
-                <a
-                  href="#"
-                  className="text-base font-medium text-blue-500 hover:underline dark:text-blue-400"
-                >
-                  View More
-                </a>
               </div>
             </div>
             <div className="w-full px-3 lg:w-3/4">
@@ -505,10 +325,17 @@ export default function Services() {
                   ))}
               </div>
 
+               
+                      
+
               <div className="flex justify-end mt-6">
                 <nav aria-label="page-navigation">
                   <ul className="flex list-style-none">
-                    <li className="page-item disabled ">
+                    <li 
+                    
+                    onClick={() => handlePageChange(page - 1)}
+                    disabled={page === 1}
+                    className="page-item disabled ">
                       <a
                         href="#"
                         className="relative block pointer-events-none px-3 py-1.5 mr-3 text-base text-gray-700 transition-all duration-300  rounded-md dark:text-gray-400 hover:text-gray-100 hover:bg-blue-600"
@@ -521,26 +348,11 @@ export default function Services() {
                         href="#"
                         className="relative block px-3 py-1.5 mr-3 text-base hover:text-blue-700 transition-all duration-300 hover:bg-blue-200 dark:hover:text-gray-400 dark:hover:bg-gray-700 rounded-md text-gray-100 bg-blue-600"
                       >
-                        1
+                       {page}
                       </a>
                     </li>
-                    <li className="page-item ">
-                      <a
-                        href="#"
-                        className="relative block px-3 py-1.5 text-base text-gray-700 transition-all duration-300 dark:text-gray-400 dark:hover:bg-gray-700 hover:bg-blue-100 rounded-md mr-3  "
-                      >
-                        2
-                      </a>
-                    </li>
-                    <li className="page-item ">
-                      <a
-                        href="#"
-                        className="relative block px-3 py-1.5 text-base text-gray-700 transition-all duration-300 dark:text-gray-400 dark:hover:bg-gray-700 hover:bg-blue-100 rounded-md mr-3 "
-                      >
-                        3
-                      </a>
-                    </li>
-                    <li className="page-item ">
+                   
+                    <li  onClick={() => handlePageChange(page + 1)} className="page-item ">
                       <a
                         href="#"
                         className="relative block px-3 py-1.5 text-base text-gray-700 transition-all duration-300 dark:text-gray-400 dark:hover:bg-gray-700 hover:bg-blue-100 rounded-md "
